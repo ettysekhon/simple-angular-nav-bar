@@ -28,7 +28,7 @@
 	 	}, {
 	 		url: 'search-auto-suggest.tmpl.html',
 	 		html: ['<div class="search-auto-suggest__container">',
-	 		'<input class="search-auto-suggest__input" ng-model="searchTerm" type="text autofocus"/>',
+	 		'<input class="search-auto-suggest__input" ng-model="searchTerm" type="text" autofocus/>',
 	 		'<ul class="search-auto-suggest__list" ng-show="searchItems.length > 0">',
 	 		'<li class="search-auto-suggest__item" ng-repeat="item in searchItems">',
 	 		'<a href="#/movies/{{item.slug}}" class="search-auto-suggest__link" ng-bind="item.title"></a>'].join('')
