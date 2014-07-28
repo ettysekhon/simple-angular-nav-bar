@@ -1,0 +1,113 @@
+html {
+  font-size: 0.75em;
+  line-height: 1.5;
+  font-family: sans-serif;
+}
+
+body {
+  width: 95%;
+  margin: auto;
+}
+
+.nav-bar__container {
+  margin-top: 25px;
+  font-size: 14px;
+}
+
+.nav-bar {
+  display: table;
+  table-layout: fixed;
+  width: 100%;
+  margin: auto;
+  height: 60px;
+  padding: 0px;
+  box-shadow: 0 4px 10px -2px #888;
+}
+
+.nav-bar__item {
+  display: table-cell;
+  position: relative;
+  width: auto;
+  text-align: center;
+  line-height: 60px;
+  border-right: 1px solid #6a3d5c;
+  padding: 0px 10px;
+
+  background: #641e4d; /* Old browsers */
+  background: -webkit-gradient(linear, 0 0, 0 100%, from(#641e4d), to(#171717));
+  background: -webkit-linear-gradient(#641e4d) 0%, #171717 100%);
+  background: -moz-linear-gradient(#641e4d) 0%, #171717 100%);
+  background: -o-linear-gradient(#641e4d) 0%, #171717 100%);
+  background: linear-gradient(#641e4d 0%, #171717 100%); /* FF3.6+ */ /* Chrome,Safari4+ */ /* Chrome10+,Safari5.1+ */ /* Opera 11.10+ */ /* IE10+ */ /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#171717', endColorstr='#641e4d',GradientType=0 ); /* IE6-9 */
+}
+
+.nav-bar__item:first-child {
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+}
+
+.nav-bar__item:last-child {
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+  border-right: 0;
+  width: 300px;
+}
+
+.nav-bar__link {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  white-space:nowrap;
+  -ms-text-overflow:ellipsis;
+  text-overflow:ellipsis;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-decoration: none;
+  color: #ccbcc6;
+}
+
+.search-auto-suggest__container {
+  position: relative;
+}
+
+.search-auto-suggest__input {
+  width: 100%;
+  border-radius: 4px;
+  height: 35px;
+  font-size: 18px;
+  padding: 0px 8px;
+  color: gray;
+  font-weight: lighter;
+}
+
+.search-auto-suggest__list {
+  position: absolute;
+  top: 38px;
+  right: 0px;
+  padding-left: 0px;
+  min-width: 390px;
+  border: 1px solid silver;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  box-shadow: -6px 6px 15px -8px #888;
+}
+
+.search-auto-suggest__link {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  white-space:nowrap;
+  -ms-text-overflow:ellipsis;
+  text-overflow:ellipsis;
+  text-decoration: none;
+  text-align: left;
+  padding: 0px 15px;
+  color: #a72460;
+}
+
+.search-auto-suggest__link:hover {
+  color: #fff;
+  background-color: #5a1041;
+  cursor: pointer;
+}

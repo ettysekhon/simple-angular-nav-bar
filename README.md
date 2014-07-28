@@ -1,4 +1,6 @@
 simple-angular-nav-bar
 ======================
 
-Simple Angular Nav Bar
+A simple angular nav bar for desktop screen
+
+Just open index.html in browser
