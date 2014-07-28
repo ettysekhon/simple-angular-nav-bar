@@ -29,7 +29,7 @@ body {
   position: relative;
   width: auto;
   text-align: center;
-  line-height: 60px;
+  vertical-align: middle;
   border-right: 1px solid #6a3d5c;
   padding: 0px 10px;
 
@@ -52,6 +52,10 @@ body {
   border-top-right-radius: 5px;
   border-right: 0;
   width: 300px;
+}
+
+.nav-bar__item {
+  line-height: 60px;
 }
 
 .nav-bar__link {
